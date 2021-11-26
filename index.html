@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gerador de Currículos</title>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="titulo styleH1">
+        <h1>Gerador de Currículos</h1>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <form method="post" action="mostrar.php" role="form">
+
+            <div class="col-md-12">
+              <label for="nome">Nome Completo</label>
+              <input
+                id="nome"
+                type="text"
+                name="nome"
+                class="form-control"
+                placeholder="Digite seu nome completo"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="endereco">Nacionalidade</label>
+              <input
+                id="nacionalidade"
+                type="text"
+                name="nacionalidade"
+                class="form-control"
+                placeholder="Digite sua nacionalidade"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="endereco">Endereço</label>
+              <input
+                id="endereco"
+                type="text"
+                name="endereco"
+                class="form-control"
+                placeholder="Digite seu endereço"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Digite seu email"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="idade">Idade</label>
+              <input
+                id="idade"
+                type="text"
+                name="idade"
+                class="form-control"
+                placeholder="Digite sua idade"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="telefone">Telefone</label>
+              <input
+                id="telefone"
+                type="text"
+                name="telefone"
+                class="form-control"
+                placeholder="Digite seu telefone"
+              />
+            </div>
+
+            <br />
+
+            <div class="col-md-12">
+              <label for="objetivo">Objetivo Profissional</label>
+              <input
+                id="objetivo"
+                type="text"
+                name="objetivo"
+                class="form-control"
+                placeholder="Digite seu objetivo profissional"
+              />
+            </div>
+            <br />
+
+            <div class="card-body" id="formacoes">
+              <h4 class="card-title">Formação Acadêmica</h4>
+              <button class="btn btn-sm right btn-dn" id="adicionar-formacao">
+                Adicionar formação
+              </button>
+            </div>
+
+            <br />
+
+            <div class="card-body" id="experiencias">
+              <h4 class="card-title">Experiências Profissionais</h4>
+              <button class="btn btn-sm right btn-dn" id="adicionar-experiencia">
+                Adicionar Experiência
+              </button>
+            </div>
+
+            <div class="card-footer">
+              <button class="btn btn-gerador" type="submit">
+                Gerar currículo
+              </button>
+              
+              <button class="btn btn-dft" type="reset">
+                Limpar campos
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

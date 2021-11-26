@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  border: 0px;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.alinhar {
+  text-align: center;
+}
+
+.titulo {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #965cea;
+}
+
+.styleH1 {
+  color: white;
+  text-align: center;
+}
+
+.btn-gerador {
+  color: #fff;
+  background-color: #965cea;
+  margin-left: 20px;
+}
+
+.btn-dft {
+  background-color: #d2cbdd;
+  margin-left: 20px;
+}
+
+.btn-dn {
+  margin-bottom: 25px;
+}
+
+.espaco-form {
+  margin-bottom: 10px;
+}
